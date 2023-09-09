@@ -15,7 +15,7 @@ const geojson = {
       },
       geometry: {
         type: "Point",
-        coordinates: [-66.324462, -16.024695],
+        coordinates: [-6.260278, 53.341389],
       },
     },
     {
@@ -29,7 +29,7 @@ const geojson = {
       },
       geometry: {
         type: "Point",
-        coordinates: [51.50519, -0.02085],
+        coordinates: [-0.02085, 51.50519],
       },
     },
     {
@@ -43,7 +43,7 @@ const geojson = {
       },
       geometry: {
         type: "Point",
-        coordinates: [55.860916, -4.251433],
+        coordinates: [-4.251433, 55.860916],
       },
     },
   ],
@@ -73,7 +73,8 @@ map.on("style.load", () => {
     const width = marker.properties.iconSize[0];
     const height = marker.properties.iconSize[1];
     el.className = "marker";
-    el.style.backgroundImage = `url(https://placekitten.com/g/${width}/${height}/)`;
+    el.style.backgroundImage = `url(assets/images/pin.svg)`;
+    el.style.backgroundColor = `red`;
     el.style.width = `${width}px`;
     el.style.height = `${height}px`;
     el.style.backgroundSize = "100%";
