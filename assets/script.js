@@ -16,6 +16,13 @@ const geojson = {
           <li>Limiting energy usage</li>
           <li>Sourcing ingredients from responsible suppliers</li>
         </ul>
+        <div class="modal-badges-text">Badges<div>
+        <hr>
+        <div class="modal-badge-list">
+        <img class="modal-badges" src="assets/images/recycling.jpg">
+        <img class="modal-badges" src="assets/images/community-events.jpg">
+        <img class="modal-badges" src="assets/images/sustainable-materials.jpg">
+      </div>
         `,
         iconSize: [60, 60],
         filename: "office_1",
@@ -38,6 +45,13 @@ const geojson = {
           <li>Solar panels at HQ</li>
           <li>Recycling</li>
         </ul>
+        <div class="modal-badges-text">Badges<div>
+        <hr>
+        <div class="modal-badge-list">
+          <img class="modal-badges" src="assets/images/bicycle-friendly.jpg">
+          <img class="modal-badges" src="assets/images/green-spaces.jpg">
+          <img class="modal-badges" src="assets/images/recyclin.jpg">
+        </div>
         `,
         iconSize: [60, 60],
         filename: "office_2",
@@ -62,8 +76,9 @@ const geojson = {
         <div class="modal-badges-text">Badges<div>
         <hr>
         <div class="modal-badge-list">
+          <img class="modal-badges" src="assets/images/recycling.jpg">
           <img class="modal-badges" src="assets/images/bicycle-friendly.jpg">
-          <img class="modal-badges" src="assets/images/green-spaces.jpg">
+          <img class="modal-badges" src="assets/images/sustainable-materials.jpg">
         </div>
         `,
         iconSize: [60, 60],
