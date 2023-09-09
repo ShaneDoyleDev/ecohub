@@ -8,7 +8,15 @@ const geojson = {
       type: "Feature",
       properties: {
         title: "Megs Bakery",
-        message: "123 Smithy street",
+        message: `
+        <ul>
+          <li>Recycling as much as possible</li>
+          <li>Recycling food waste</li>
+          <li>Continual training and development of staff</li>
+          <li>Limiting energy usage</li>
+          <li>Sourcing ingredients from responsible suppliers</li>
+        </ul>
+        `,
         iconSize: [60, 60],
         filename: "office_1",
         filetype: "glb",
@@ -22,7 +30,15 @@ const geojson = {
       type: "Feature",
       properties: {
         title: "Money Bank",
-        message: "London",
+        message: `
+        <ul>
+          <li>Planting trees to offset carbon footprint</li>
+          <li>Cycle to work scheme</li>
+          <li>Rooftop garden</li>
+          <li>Solar panels at HQ</li>
+          <li>Recycling</li>
+        </ul>
+        `,
         iconSize: [60, 60],
         filename: "office_2",
         filetype: "glb",
@@ -36,7 +52,15 @@ const geojson = {
       type: "Feature",
       properties: {
         title: "Toot Toot Delivery",
-        message: "Glasgow",
+        message: `
+        <ul>
+          <li>Adding electric vans to fleet of delivery vehicles</li>
+          <li>Maintenance of vehicles to keep them as efficient as possible</li>
+          <li>Car pull system for employees</li>
+          <li>Cycle to work scheme</li>
+        </ul>
+        <div class="modal-class"><img src="assets/images/bicycle-friendly.jpg"></div>
+        `,
         iconSize: [60, 60],
         filename: "office_3",
         filetype: "glb",
