@@ -10,7 +10,7 @@
 
 # SUBMISSION
 ## Deployment
-This project is deployed in [Heroku](https://www.heroku.com/) and can be accessed at [ecoHub](https://ecohubs-f622e01cb1e8.herokuapp.com/).
+This project is deployed in GitHub Pages and can be accessed at [ecoHub](https://shanedoyledev.github.io/EcoHub/).
 
 
 
