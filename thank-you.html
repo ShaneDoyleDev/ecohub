@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="refresh" content="10; url='index.html'">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="assets/styles/style.css" />
+    <script defer src="./assets/script.js"></script>
+    <title>Contact Us</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md fixed-top py-3">
+      <div class="container">
+        <!-- Logo -->
+        <a href="/" class="navbar-brand fs-2" href="#">EchoHub</a>
+
+        <!-- Toggle Button -->
+        <button
+          class="navbar-toggler shadow-none border-0"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Sidebar -->
+        <div
+          class="sidebar offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <!-- Sidebar Header -->
+          <div class="offcanvas-header text-white border-bottom">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">EcoHub</h5>
+            <button
+              type="button"
+              class="btn-close btn-close-white shadow-none"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+
+          <!-- Sidebar Body -->
+          <div class="offcanvas-body d-flex flex-column">
+            <ul class="navbar-nav align-items-center flex-grow-1 pe-3 fs-5">
+              <li class="nav-item m-2">
+                <a class="nav-link active" aria-current="page" href="/">Home</a>
+              </li>
+              <li class="nav-item m-2">
+                <a class="nav-link" href="/about.html">About</a>
+              </li>
+              <li class="nav-item m-2">
+                <a class="nav-link" href="/contact.html">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <section class="box">
+        <img
+          class="form-img"
+          src="/assets/images/eco-lineart.png"
+          alt="line art of eco friendly offices"
+        />
+        <div class="container">
+          <h1 class="page-heading yellow-title">Contact Us</h1>
+          <div class="contact-image-container">
+          <img src="{% static 'images/eco-lineart.png' %}" alt="artwork" class="contact-image" aria-label="Eco city artwork">
+          </div>
+          <h2 class="yellow-title text-center">THANK YOU!</h2>
+          <p class="text-center">
+              We will be in touch shortly.
+          </p>
+          <p class="text-center">
+              You will be automatically redirected to the main page in 10 seconds.<br>
+          </p>
+      
+          <p class="text-center">
+              If this does not work, please click the link below.
+          </p>
+          <p class="text-center">
+              <a href="/"  aria-label="Redirect link">Return to main page</a>
+          </p>
+      </div>
+    </section>
+  </body>
+</html>
