@@ -59,7 +59,12 @@ const geojson = {
           <li>Car pull system for employees</li>
           <li>Cycle to work scheme</li>
         </ul>
-        <div class="modal-class"><img src="assets/images/bicycle-friendly.jpg"></div>
+        <div class="modal-badges-text">Badges<div>
+        <hr>
+        <div class="modal-badge-list">
+          <img class="modal-badges" src="assets/images/bicycle-friendly.jpg">
+          <img class="modal-badges" src="assets/images/bicycle-friendly.jpg">
+        </div>
         `,
         iconSize: [60, 60],
         filename: "office_3",
