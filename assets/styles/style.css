@@ -25,7 +25,9 @@
 .navbar-nav .nav-link {
   color: #333;
 }
-
+.navbar-nav .nav-link:hover {
+  color: #82bf80;
+}
 @media screen and (max-width: 767px) {
   .sidebar {
     background: rgba(68, 61, 104, 0.15);
