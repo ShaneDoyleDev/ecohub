@@ -63,7 +63,7 @@ const geojson = {
         <hr>
         <div class="modal-badge-list">
           <img class="modal-badges" src="assets/images/bicycle-friendly.jpg">
-          <img class="modal-badges" src="assets/images/bicycle-friendly.jpg">
+          <img class="modal-badges" src="assets/images/green-spaces.jpg">
         </div>
         `,
         iconSize: [60, 60],
