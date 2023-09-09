@@ -58,7 +58,7 @@ In the tech section, we provide information about the technology stack, dependen
 
 <img src="./assets/readme_images/wireframe-home.png">
 
-<img src="./assets/readme_images/wireframe-modal">
+<img src="./assets/readme_images/wireframe-modal.png">
 
 
 ## Credits
