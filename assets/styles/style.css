@@ -1,0 +1,193 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Map Styles */
+#map {
+  position: absolute;
+  top: 100px;
+  bottom: 0;
+  width: 100%;
+}
+
+.marker {
+  display: block;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  padding: 0;
+}
+
+/* Navbar Styles */
+.navbar {
+  background-color: #0f0f0f;
+}
+
+.navbar-nav {
+  justify-content: flex-end;
+}
+
+@media screen and (max-width: 767px) {
+  .sidebar {
+    background: rgba(68, 61, 104, 0.15);
+    backdrop-filter: blur(10px);
+  }
+
+  .navbar-nav {
+    justify-content: center;
+  }
+
+  .nav-item {
+    font-size: 2rem;
+  }
+}
+
+/** container styles **/
+
+.box {
+  border: 2px solid #0f0f0f;
+  border-radius: 50px;
+  padding: 7rem 1rem 1rem 1rem;
+}
+
+/* Badge styles */
+
+.badge-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+.badge {
+  width: 100px;
+  padding: 8px;
+}
+
+.badge:empty {
+  display: block;
+}
+
+.badge-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+/* Badge styles */
+
+.badge-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+.badge {
+  width: 100px;
+  padding: 8px;
+}
+
+.badge:empty {
+  display: block;
+}
+
+.badge-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+/* 404 Page styles */
+
+.page-404 {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.img-404 {
+  width: 100%;
+  max-width: 500px;
+}
+
+/* About heading */
+
+.about-heading {
+  margin-top: 48px;
+}
+
+/* Companies */
+
+.company-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 16px;
+  gap: 16px;
+}
+
+.company-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.company-image {
+  width: 25vw;
+}
+
+.yellow-title {
+  color: #febc5b;
+}
+.box {
+  margin-top: 3rem;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  border: none;
+}
+.form {
+  padding: 1.5rem;
+  margin: 1rem;
+  border-radius: 50px;
+  max-width: 600px;
+}
+.form-content {
+  display: flex;
+}
+.form-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.form-labels {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+  padding: 1rem;
+}
+.form-input {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 1rem;
+}
+.submit {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0.5rem;
+  margin: 0.5rem;
+}
+.submit-button {
+  width: 100px;
+  border-radius: 20px;
+  background-color: #febc5b;
+  padding: 0.5rem;
+  margin: 0.5rem;
+}
+.submit-button:hover {
+  box-shadow: 5px 5px 10px #febc5b;
+  background-color: #fa9702;
+}
