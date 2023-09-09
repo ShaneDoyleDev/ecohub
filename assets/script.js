@@ -16,6 +16,13 @@ const geojson = {
           <li>Limiting energy usage</li>
           <li>Sourcing ingredients from responsible suppliers</li>
         </ul>
+        <div class="modal-badges-text">Badges<div>
+        <hr>
+        <div class="modal-badge-list">
+        <img class="modal-badges" src="assets/images/recycling.jpg">
+        <img class="modal-badges" src="assets/images/community-events.jpg">
+        <img class="modal-badges" src="assets/images/sustainable-materials.jpg">
+      </div>
         `,
         iconSize: [60, 60],
         filename: "office_1",
@@ -38,6 +45,13 @@ const geojson = {
           <li>Solar panels at HQ</li>
           <li>Recycling</li>
         </ul>
+        <div class="modal-badges-text">Badges<div>
+        <hr>
+        <div class="modal-badge-list">
+          <img class="modal-badges" src="assets/images/bicycle-friendly.jpg">
+          <img class="modal-badges" src="assets/images/green-spaces.jpg">
+          <img class="modal-badges" src="assets/images/recycling.jpg">
+        </div>
         `,
         iconSize: [60, 60],
         filename: "office_2",
@@ -62,8 +76,9 @@ const geojson = {
         <div class="modal-badges-text">Badges<div>
         <hr>
         <div class="modal-badge-list">
+          <img class="modal-badges" src="assets/images/recycling.jpg">
           <img class="modal-badges" src="assets/images/bicycle-friendly.jpg">
-          <img class="modal-badges" src="assets/images/green-spaces.jpg">
+          <img class="modal-badges" src="assets/images/sustainable-materials.jpg">
         </div>
         `,
         iconSize: [60, 60],
@@ -73,6 +88,34 @@ const geojson = {
       geometry: {
         type: "Point",
         coordinates: [-4.251433, 55.860916],
+      },
+    },
+    {
+      type: "Feature",
+      properties: {
+        title: "Joe Auto Parts",
+        message: `
+        <ul>
+          <li>Use sustainable materials</li>
+          <li>Recycling all waste</li>
+          <li>Cycling friendly</li>
+          <li>Limiting energy usage</li>
+        </ul>
+        <div class="modal-badges-text">Badges<div>
+        <hr>
+        <div class="modal-badge-list">
+        <img class="modal-badges" src="assets/images/recycling.jpg">
+        <img class="modal-badges" src="assets/images/community-events.jpg">
+        <img class="modal-badges" src="assets/images/sustainable-materials.jpg">
+      </div>
+        `,
+        iconSize: [60, 60],
+        filename: "office_1",
+        filetype: "glb",
+      },
+      geometry: {
+        type: "Point",
+        coordinates: [-6.560278, 53.311389],
       },
     },
   ],
