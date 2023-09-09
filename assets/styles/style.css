@@ -13,11 +13,15 @@
 
 /* Navbar Styles */
 .navbar {
-  background-color: #0f0f0f;
+  background-color: white;
 }
 
 .navbar-nav {
   justify-content: flex-end;
+}
+
+.navbar-nav .nav-link {
+  color: #333;
 }
 
 @media screen and (max-width: 767px) {
@@ -32,6 +36,14 @@
 
   .nav-item {
     font-size: 2rem;
+  }
+
+  .navbar-nav .nav-link.active {
+    color: white;
+  }
+
+  .navbar-nav .nav-link {
+    color: white;
   }
 }
 
