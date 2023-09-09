@@ -1,6 +1,7 @@
-/* Map Styles */
-#map {
-  width: 100%;
+.btn-primary {
+  background-color: #febc5b;
+  border: #febc5b;
+  color: #0f0f0f;
 }
 
 .marker {
@@ -82,6 +83,7 @@
   display: grid;
   grid-template-columns: repeat(5, 1fr);
 }
+
 .badge {
   width: 100px;
   padding: 8px;
@@ -142,6 +144,7 @@
 .yellow-title {
   color: #febc5b;
 }
+
 .box {
   margin-top: 3rem;
   padding: 1rem;
@@ -149,20 +152,31 @@
   justify-content: center;
   border: none;
 }
+
 .form {
+  display: flex;
+  flex-direction: column;
   padding: 1.5rem;
   margin: 1rem;
   border-radius: 50px;
   max-width: 600px;
 }
+
+.form-img {
+  width: 100%;
+  max-width: 600px;
+}
+
 .form-content {
   display: flex;
 }
+
 .form-box {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
+
 .form-labels {
   display: flex;
   flex-direction: column;
@@ -170,6 +184,7 @@
   align-items: flex-end;
   padding: 1rem;
 }
+
 .form-input {
   display: flex;
   flex-direction: column;
@@ -177,6 +192,7 @@
   align-items: flex-start;
   padding: 1rem;
 }
+
 .submit {
   display: flex;
   flex-direction: row;
@@ -184,6 +200,7 @@
   padding: 0.5rem;
   margin: 0.5rem;
 }
+
 .submit-button {
   width: 100px;
   border-radius: 20px;
@@ -191,6 +208,7 @@
   padding: 0.5rem;
   margin: 0.5rem;
 }
+
 .submit-button:hover {
   box-shadow: 5px 5px 10px #febc5b;
   background-color: #fa9702;
