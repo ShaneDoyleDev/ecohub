@@ -84,6 +84,9 @@ map.on("style.load", () => {
       $("#exampleModal").modal("toggle");
       $("#exampleModalLabel").html(marker.properties.title);
       $("#modalText").html(marker.properties.message);
+
+      map.flyTo({center: marker.geometry.coordinates, zoom: 12, curve: 2, pitch: 60});
+
     });
 
     // Add markers to the map.
