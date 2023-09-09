@@ -226,10 +226,12 @@
 .modal-badge-list {
   display: flex;
   flex-direction: row;
-
 }
 .modal-badges {
   width: 50px;
   height: 50px;
   margin: 5px;
+}
+.about-container {
+  margin-top: 100px;
 }

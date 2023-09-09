@@ -25,17 +25,17 @@
       rel="stylesheet"
     />
 
-      <!-- JQuery -->
-      <script
-        defer
-        src="https://code.jquery.com/jquery-1.12.4.min.js" 
-        integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" 
-        crossorigin="anonymous"
-        type="text/javascript"
-        ></script>
+    <!-- JQuery -->
+    <script
+      defer
+      src="https://code.jquery.com/jquery-1.12.4.min.js"
+      integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ"
+      crossorigin="anonymous"
+      type="text/javascript"
+    ></script>
 
-      <!-- Bootstrap CDN -->
-      <link
+    <!-- Bootstrap CDN -->
+    <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
@@ -92,7 +92,9 @@
           <div class="offcanvas-body d-flex flex-column">
             <ul class="navbar-nav align-items-center flex-grow-1 pe-3 fs-5">
               <li class="nav-item m-2">
-                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >Home</a
+                >
               </li>
               <li class="nav-item m-2">
                 <a class="nav-link" href="about.html">About</a>
@@ -105,82 +107,156 @@
         </div>
       </div>
     </nav>
-    <div class="container">
+    <div class="about-container">
+      <div class="container">
         <h1 class="page-heading yellow-title">About Us</h1>
         <div>
-            <h3 class="yellow-title">Company History</h3>
-            <p>
-                BusyB came to be in 2022 from the collective minds of some CodeInstitute allumni.
-                The idea was to give a platfrom to companies looking to show off all their great work towards sustainability.
-            </p>
-            <h3  class="yellow-title">What We Do</h3>
-            <p>
-                We provide a platform for enviromentally focused companies to share what they have in place to reduce their carbon footprint.
-                We hope this will encourage as many companies as possible to up their game when it comes to their enviromental impact on the world.
-                Register your company with us and you will be added to our interactive map and display proudly your efforts in making the world a better place.
-            </p>
+          <h3 class="yellow-title">Company History</h3>
+          <p>
+            BusyB came to be in 2022 from the collective minds of some
+            CodeInstitute allumni. The idea was to give a platfrom to companies
+            looking to show off all their great work towards sustainability.
+          </p>
+          <h3 class="yellow-title">What We Do</h3>
+          <p>
+            We provide a platform for enviromentally focused companies to share
+            what they have in place to reduce their carbon footprint. We hope
+            this will encourage as many companies as possible to up their game
+            when it comes to their enviromental impact on the world. Register
+            your company with us and you will be added to our interactive map
+            and display proudly your efforts in making the world a better place.
+          </p>
         </div>
         <div>
-            <h3 class="yellow-title">Badges</h3>
-            <p>The badges below represent sustainability achievements awarded to companies.</p>
-            <div class="badge-grid">
-                <div class="badge-card">
-                    <img src="{% static 'images/bicycle-friendly.jpg' %}" alt="Bicycle friendly badge" class="badge" aria-label="Bicycle friendly badge">
-                    <p>Bicycle Friendly</p>
-                </div>
-                <div class="badge-card">
-                    <img src="{% static 'images/cloud-storage.jpg' %}" alt="Cloud storage badge" class="badge" aria-label="Cloud friendly badge">
-                    <p>Cloud Storage</p>
-                </div>
-                <div class="badge-card">
-                    <img src="{% static 'images/community-events.jpg' %}" alt="Community events badge" class="badge" aria-label="Community">
-                    <p>Community Events</p>
-                </div>
-                <div class="badge-card">
-                    <img src="{% static 'images/ev-chargers.jpg' %}" alt="EV chargers badge" class="badge" aria-label="EV chargers badge">
-                    <p>EV Chargers</p>
-                </div>
-                <div class="badge-card">
-                    <img src="{% static 'images/green-spaces.jpg' %}" alt="Green spaces badge" class="badge" aria-label="Green spaces badge">
-                    <p>Green Spaces</p>
-                </div>
-                <div class="badge-card">
-                    <img src="{% static 'images/grey-water.jpg' %}" alt="Grey water badge" class="badge" aria-label="Grey water badge">
-                    <p>Grey Water</p>
-                </div>
-                <div class="badge-card">
-                    <img src="{% static 'images/recycling.jpg' %}" alt="Recycling badge" class="badge" aria-label="Recycling badge">
-                    <p>Recycling</p>
-                </div>
-                <div class="badge-card">
-                    <img src="{% static 'images/renewable-energy.jpg' %}" alt="Renewable energy badge" class="badge" aria-label="Renewable energy badge">
-                    <p>Renewable Energy</p>
-                </div>
-                <div class="badge-card">
-                    <img src="{% static 'images/sustainable-materials.jpg' %}" alt="Sustainable materials badge" class="badge" aria-label="Sustainable materials badge">
-                    <p>Sustainable Materials</p>
-                </div>
-                <div class="badge-card">
-                    <img src="{% static 'images/zero-plastic.jpg' %}" alt="Zero plastic badge" class="badge" aria-label="Zero plastic badge">
-                    <p>Zero Plastic</p>
-                </div>
+          <h3 class="yellow-title">Badges</h3>
+          <p>
+            The badges below represent sustainability achievements awarded to
+            companies.
+          </p>
+          <div class="badge-grid">
+            <div class="badge-card">
+              <img
+                src="assets/images/bicycle-friendly.jpg"
+                alt="Bicycle friendly badge"
+                class="badge"
+                aria-label="Bicycle friendly badge"
+              />
+              <p>Bicycle Friendly</p>
             </div>
+            <div class="badge-card">
+              <img
+                src="assets/images/cloud-storage.jpg"
+                alt="Cloud storage badge"
+                class="badge"
+                aria-label="Cloud friendly badge"
+              />
+              <p>Cloud Storage</p>
+            </div>
+            <div class="badge-card">
+              <img
+                src="assets/images/community-events.jpg"
+                alt="Community events badge"
+                class="badge"
+                aria-label="Community"
+              />
+              <p>Community Events</p>
+            </div>
+            <div class="badge-card">
+              <img
+                src="assets/images/ev-chargers.jpg"
+                alt="EV chargers badge"
+                class="badge"
+                aria-label="EV chargers badge"
+              />
+              <p>EV Chargers</p>
+            </div>
+            <div class="badge-card">
+              <img
+                src="assets/images/green-spaces.jpg"
+                alt="Green spaces badge"
+                class="badge"
+                aria-label="Green spaces badge"
+              />
+              <p>Green Spaces</p>
+            </div>
+            <div class="badge-card">
+              <img
+                src="assets/images/grey-water.jpg"
+                alt="Grey water badge"
+                class="badge"
+                aria-label="Grey water badge"
+              />
+              <p>Grey Water</p>
+            </div>
+            <div class="badge-card">
+              <img
+                src="assets/images/recycling.jpg"
+                alt="Recycling badge"
+                class="badge"
+                aria-label="Recycling badge"
+              />
+              <p>Recycling</p>
+            </div>
+            <div class="badge-card">
+              <img
+                src="assets/images/renewable-energy.jpg"
+                alt="Renewable energy badge"
+                class="badge"
+                aria-label="Renewable energy badge"
+              />
+              <p>Renewable Energy</p>
+            </div>
+            <div class="badge-card">
+              <img
+                src="assets/images/sustainable-materials.jpg"
+                alt="Sustainable materials badge"
+                class="badge"
+                aria-label="Sustainable materials badge"
+              />
+              <p>Sustainable Materials</p>
+            </div>
+            <div class="badge-card">
+              <img
+                src="assets/images/zero-plastic.jpg"
+                alt="Zero plastic badge"
+                class="badge"
+                aria-label="Zero plastic badge"
+              />
+              <p>Zero Plastic</p>
+            </div>
+          </div>
         </div>
         <h3 class="yellow-title">Current Companies</h3>
-            <div class="company-grid">
-                
-                <div class="company-card">
-                    <h5 class="yellow-title">Megs Bakery</h5>
-                    <img src="{% static 'images/bakery.jpg' %}" alt="Bakery" class="company-image" aria-label="Selection of cakes">
-                </div>
-                <div class="company-card">
-                    <h5 class="yellow-title">Money Bank</h5>
-                    <img src="{% static 'images/bank.jpg' %}" alt="Bank" class="company-image" aria-label="Someone putting money in a piggy bank">
-                </div>
-                <div class="company-card">
-                    <h5 class="yellow-title">Toot Toot Delivery Company</h5>
-                    <img src="{% static 'images/delivery.jpg' %}" alt="Delivery" class="company-image" aria-label="Man delivering goods">
-                </div>
-            </div>
+        <div class="company-grid">
+          <div class="company-card">
+            <h5 class="yellow-title">Megs Bakery</h5>
+            <img
+              src="assets/images/bakery.jpg"
+              alt="Bakery"
+              class="company-image"
+              aria-label="Selection of cakes"
+            />
+          </div>
+          <div class="company-card">
+            <h5 class="yellow-title">Money Bank</h5>
+            <img
+              src="assets/images/bank.jpg"
+              alt="Bank"
+              class="company-image"
+              aria-label="Someone putting money in a piggy bank"
+            />
+          </div>
+          <div class="company-card">
+            <h5 class="yellow-title">Toot Toot Delivery Company</h5>
+            <img
+              src="assets/images/delivery.jpg"
+              alt="Delivery"
+              class="company-image"
+              aria-label="Man delivering goods"
+            />
+          </div>
+        </div>
+      </div>
     </div>
-</body>
+  </body>
+</html>
