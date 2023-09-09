@@ -48,7 +48,6 @@ const geojson = {
     },
   ],
 };
-// This hasn't been tested yet, fix this
 
 const map = new mapboxgl.Map({
   container: "map",
@@ -67,9 +66,9 @@ map.on("style.load", () => {
   map.setFog({});
 
   for (const marker of geojson.features) {
-    obj_filename = `${model_url}/${marker.properties.filename}.${marker.properties.filetype}`;
+    obj_filename = `assets/models/${marker.properties.filename}.${marker.properties.filetype}`;
     console.log(obj_filename);
-    // Create a DOM element for each marker.
+
     const el = document.createElement("div");
     const width = marker.properties.iconSize[0];
     const height = marker.properties.iconSize[1];
@@ -80,6 +79,7 @@ map.on("style.load", () => {
     el.style.backgroundSize = "100%";
 
     el.addEventListener("click", () => {
+      console.log($("#exampleModal"))
       $("#exampleModal").modal("toggle");
       $("#exampleModalLabel").html(marker.properties.title);
       $("#modalText").html(marker.properties.message);
@@ -89,7 +89,7 @@ map.on("style.load", () => {
     new mapboxgl.Marker(el).setLngLat(marker.geometry.coordinates).addTo(map);
 
     map.addLayer({
-      id: "custom-threebox-model",
+      id: obj_filename,
       type: "custom",
       renderingMode: "3d",
       onAdd: function () {
