@@ -121,6 +121,10 @@
 
 /* About heading */
 
+.about-container {
+    margin-top: 6rem;
+}
+
 .about-heading {
   margin-top: 48px;
 }
