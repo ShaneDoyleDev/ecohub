@@ -46,7 +46,20 @@ In the tech section, we provide information about the technology stack, dependen
 - 🌐 [Bootstrap v.5](https://getbootstrap.com/) was used for the styling in our page.
 - 🌐 [JQuery](https://jquery.com/) was used as a dependency of Bootstrap.
 
-##
+## Wireframes
+
+<img src="./assets/readme_images/wireframe-about.png">
+
+<img src="./assets/readme_images/wireframe-badges.jpg">
+
+<img src="./assets/readme_images/wireframe-business-page.png">
+
+<img src="./assets/readme_images/wireframe-contact-form.png">
+
+<img src="./assets/readme_images/wireframe-home.png">
+
+<img src="./assets/readme_images/wireframe-modal">
+
 
 ## Credits
 We would like to give credit to the following individuals, organizations, and resources that have contributed to the project or provided inspiration:
