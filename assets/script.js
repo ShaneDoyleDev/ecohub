@@ -49,18 +49,15 @@ const geojson = {
   ],
 };
 // This hasn't been tested yet, fix this
-if (!mapboxgl.supported()) {
-  alert("Your browser does not support Mapbox GL");
-} else {
-  const map = new mapboxgl.Map({
-    container: "map",
-    style: "mapbox://styles/mapbox/satellite-streets-v11",
-    zoom: 1.5,
-    center: [30, 50],
-    projection: "globe",
-    antialias: true,
-  });
-}
+
+const map = new mapboxgl.Map({
+  container: "map",
+  style: "mapbox://styles/mapbox/satellite-streets-v11",
+  zoom: 1.5,
+  center: [30, 50],
+  projection: "globe",
+  antialias: true,
+});
 
 const tb = (window.tb = new Threebox(map, map.getCanvas().getContext("webgl"), {
   defaultLights: true,
