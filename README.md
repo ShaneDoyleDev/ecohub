@@ -1,39 +1,34 @@
 <h1 align="center" style="color:#ffbd59; font-weight:bold">BusyB </h1>
 <h2 align="center" style="color:forestgreen;">EcoHub
 
-
-
 <img src="./assets/readme_images/busyb_logo.png" style="width:100%;">
 
-<!-- ![BusyB logo](/readme_files/busyB_logo.png) -->
+# About BusyB and EcoHub
 
+## Introduction
 
-# SUBMISSION
-## Deployment
-This project is deployed in GitHub Pages and can be accessed at [ecoHub](https://shanedoyledev.github.io/EcoHub/).
+BusyB is a fictional NGO conceived during Soda Social's Hackathon. Our primary mission is to assist businesses—from startups to large enterprises—on their journey toward environmental, social, and governance (ESG) sustainability. To facilitate this, we've developed EcoHub, a groundbreaking platform where companies can showcase their ESG initiatives to potential investors, consumers, and prospective employees. Our aim is to spark a virtuous cycle of competition among businesses that propels them toward greater sustainability.
 
-
-
-# About BusyB and our ecoHub
-## Intro
-BusyB is an NGO that strives to help businesses of all sizes and industries in their quest towards a more sustainable world. To this end, we have created our ecoHub, a platform for companies to showcase their ESG initiatives to prospective investors, customers and current or potential employees. Our goal is to create a virtuous circle of friendly competition between companies that pushes them forward in their work.
-
-In our ecoHub, companies can upload the details and images of their initiatives. Once our team has reviewed and approved the content, the company will receive a badge for these that will be displayed on their profile. These badges work with a double purpose. Frist, they are a token for companies to collect and boast, both internally in their newsletters, email signatures, etc. and externally in their traditional and social media platforms. Second, they are a quick and easy visual cue for anyone seeing them to gauge and assign a value to the contributions that the company is making, and whether these align with their areas of concern.
+In EcoHub, companies can submit details and visuals of their green initiatives. Once our team reviews and approves this content, the participating company receives a unique badge, which is then showcased on their profile. These badges serve two essential functions: 
+1. They act as bragging rights that companies can feature internally—via newsletters, email signatures, etc.—and externally through traditional and social media.
+2. They provide an immediate visual cue for viewers to quickly assess a company's contributions, enabling them to align their choices with their own sustainability values.
 
 ## Goal
 
-ESG has increasingly become a key focus point for businesses, who dedicate more and more resources into them, but also lack a tool to leverage this investment as an attractive feature. At the same time, consumers of goods and services, investors and jobseekers don't have a clear-cut, easy, at-a-glance way of learning about the initiatives undertaken by these companies, who, more often than not, end up burying ESG reports deep in their corporate websites.
+In recent years, ESG considerations have become a focal point for businesses, drawing more resources and attention. However, a coherent platform to highlight these endeavors has been conspicuously absent. On the flip side, consumers, investors, and job seekers often find it challenging to quickly gauge a company's ESG commitments, which are usually buried deep within corporate websites.
 
-With all this in mind, BusyB has created ecoHub, an open platform for businesses to display their work around ESG and for visitors of all backgrounds to be able to make better informed decisions when purchasing goods or services, applying for or accepting positions from prospective employers, or investing their funds into.
+Recognizing this gap, BusyB has designed EcoHub to be an open platform for businesses to publicly display their ESG efforts. It allows people from various walks of life to make more informed decisions, whether they're buying products, seeking employment, or investing.
 
-## Tech
-In the tech section, we provide information about the technology stack, dependencies, and any technical details related to the project.
+## Technology
+
+In this section, we delve into the technical nitty-gritty of EcoHub. Here, you'll find information about the technology stack we employ, the dependencies required, and other pertinent technical details related to the project.
+
 
 ### Languages:
- - HTML
+ - HTML 
  - CSS
  - JavaScript
- - Python 🐍
+ - Python 
 
 
 ### Frameworks, Libraries, APIs and Hosting:
@@ -57,6 +52,8 @@ In the tech section, we provide information about the technology stack, dependen
 
 <img src="./assets/readme_images/wireframe-modal.png">
 
+## Deployment
+This project is deployed in GitHub Pages and can be accessed at [ecoHub](https://shanedoyledev.github.io/EcoHub/).
 
 ## Credits
 We would like to give credit to the following individuals, organizations, and resources that have contributed to the project or provided inspiration:
