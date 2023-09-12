@@ -53,7 +53,7 @@ In this section, we delve into the technical nitty-gritty of EcoHub. Here, you'l
 <img src="./assets/readme_images/wireframe-modal.png">
 
 ## Deployment
-This project is deployed in GitHub Pages and can be accessed at [ecoHub](shanedoyledev.github.io/ecohub/).
+This project is deployed in GitHub Pages and can be accessed at [ecoHub](https://shanedoyledev.github.io/ecohub/).
 
 ## Credits
 We would like to give credit to the following individuals, organizations, and resources that have contributed to the project or provided inspiration:
